@@ -1,0 +1,95 @@
+body {
+    background-image: url(imagen2.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#principal-title {
+    font-family: 'Pacifico';
+    font-size: 55px;
+    color: coral;
+}
+.form {
+    width: 80%;
+    max-width: 800px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-text {
+    width: 75%;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+input::-webkit-input-placeholder { /* Si tiene clase agrego input.class :: ... */
+    font-size: 22px;
+    font-family:'Indie Flower';
+}
+
+input::-moz-input-placeholder { /* Firefox 18- */
+    font-size: 22px;
+    font-family:'Indie Flower,';
+}
+
+input::-moz-input-placeholder { /* Firefox 19+ */
+    font-size: 22px;
+    font-family:'Indie Flower';
+}
+
+input::-moz-input-placeholder {
+    font-size: 22px;
+    font-family: 'Indie Flower';
+}
+
+#button-add-task {
+    width: 150px;
+    height: 46px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family:'Indie Flower';
+    margin-left: 5px;
+}
+
+.container-task-checkbox {
+   max-width: 800px;
+   width: 80%;
+   padding: 0%;
+   color: black;
+   list-style-type: none; /* saca puntos de lista*/
+   list-style-position: inside; /*Agrega checkbox dentro de la lista*/
+}
+
+li {
+    border-radius: 15px;
+    margin-top: 6px;
+    background-color: white;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.checkbox {   
+    transform: scale(2);
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: aqua;
+    }
+};

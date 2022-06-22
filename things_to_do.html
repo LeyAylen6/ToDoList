@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="things_to_do.css"   type="text/css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="principal-title">Things to Do</h1>
+
+    <form class="form">
+        <input type="text" required id="add-text" name="campo" autocomplete="off" placeholder="Add a new task">
+        <button type="submit" id="button-add-task">Add</button>
+    </form>
+    
+    <ul class="container-task-checkbox" id="container-list"> 
+        <li>
+            <p>tarea</p>
+            <input class="checkbox" type="checkbox">
+        </li>
+        <li>
+            <p>tarea</p>
+            <input class="checkbox" type="checkbox">
+        </li> 
+    </ul>
+
+</body>
+
+<script src="things_to_do.js"></script>
+
+</html>
